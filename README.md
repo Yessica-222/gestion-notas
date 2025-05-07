@@ -40,7 +40,7 @@ gestión-notas/
 └── gestion_notas/
 
 
-## 🚀 Instrucciones de implementación
+## Instrucciones de implementación
 
 **Repositorio**
    [Sistema de Gestion de Notas](https://github.com/YessicaAlexandra/gestion-notas.git)
