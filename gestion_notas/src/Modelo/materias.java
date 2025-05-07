@@ -2,7 +2,7 @@
  *
  * @author Yessica_Alexandra_Conejo_Munoz
  */
-package modelo;
+package Modelo;
 
 public class materias {
 

@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modelo;
+package Modelo;
 
 /**
  *
  * @author Yessica_Alexandra_Conejo_Munoz
  */
-public class profesores {
+public class Profesores {
    
     
     private Integer codigo;
@@ -16,13 +16,13 @@ public class profesores {
     private String apellido;
     private String especializacion; 
 
-    public profesores(Integer codigo, String nombre, String apellido, String especializacion) {
+    public Profesores(Integer codigo, String nombre, String apellido, String especializacion) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.apellido = apellido;
         this.especializacion = especializacion;
     }
-       public profesores() {
+       public Profesores() {
         this.codigo = null;
         this.nombre = null;
         this.apellido = null;

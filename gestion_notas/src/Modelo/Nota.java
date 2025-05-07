@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modelo;
+package Modelo;
 
 /**
  *
  * @author Yessica_Alexandra_Conejo_Munoz
  */
-public class nota {
+public class Nota {
 
     private Integer cod_estudiante;
     private String nom_estudiante;
@@ -22,7 +22,7 @@ public class nota {
     private Double nota_3;
     private Double nota_final;
 
-    public nota(Integer cod_estudiante, String nom_estudiante, Integer cod_materia, String nom_materia, Integer cod_profesor, String nom_profesor, String horario, double nota_1, double nota_2, double nota_3, double nota_final) {
+    public Nota(Integer cod_estudiante, String nom_estudiante, Integer cod_materia, String nom_materia, Integer cod_profesor, String nom_profesor, String horario, double nota_1, double nota_2, double nota_3, double nota_final) {
         this.cod_estudiante = cod_estudiante;
         this.nom_estudiante = nom_estudiante;
         this.cod_materia = cod_materia;
@@ -36,7 +36,7 @@ public class nota {
         this.nota_final = nota_final;
     }
 
-    public nota() {
+    public Nota() {
        this.cod_estudiante = null;
         this.nom_estudiante = null;
         this.cod_materia = null;

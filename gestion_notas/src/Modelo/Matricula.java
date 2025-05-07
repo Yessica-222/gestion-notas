@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package modelo;
+package Modelo;
 
 /**
  *
  * @author Yessica_Alexandra_Conejo_Munoz
  */
-public class matricula {
+public class Matricula {
 
     private Integer cod_estudiante;
     private String nom_estudiante;
@@ -21,7 +21,7 @@ public class matricula {
     private String observacion;
     private String horario;
 
-    public matricula(Integer cod_estudiante, String nom_estudiante, String Ape_estudiante, Integer cod_profesor, String nom_profesor, String ape_profesor, Integer cod_materia, String nom_materia, String observacion, String horario) {
+    public Matricula(Integer cod_estudiante, String nom_estudiante, String Ape_estudiante, Integer cod_profesor, String nom_profesor, String ape_profesor, Integer cod_materia, String nom_materia, String observacion, String horario) {
         this.cod_estudiante = cod_estudiante;
         this.nom_estudiante = nom_estudiante;
         this.Ape_estudiante = Ape_estudiante;
@@ -34,7 +34,7 @@ public class matricula {
         this.horario = horario;
     }
 
-    public matricula() {
+    public Matricula() {
         this.cod_estudiante = null;
         this.nom_estudiante = null;
         this.Ape_estudiante = null;
